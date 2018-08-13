@@ -1,0 +1,10 @@
+label{
+    display: none;
+}
+.form-group textarea{
+    width: 100%;
+}
+
+.ng-invalid.ng-touched:not(form){
+    border: 1px solid red;
+}

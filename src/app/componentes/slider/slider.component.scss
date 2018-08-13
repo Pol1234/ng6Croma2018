@@ -1,0 +1,83 @@
+@import '../../../variables';
+
+/*===========================
+  2.2 Slider Area
+  ===========================*/
+
+.slider-area {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    // background-image: url('../../../assets/img/pattern.png');
+    background-size: cover; 
+    background: rgba(0, 0, 0, 0) linear-gradient(130deg, #ff8443, #fe5e17) repeat scroll 0 0;
+    
+}
+
+.slider-content {
+    position: relative;
+    z-index: 2;
+   
+}
+
+.slider-content h2 {
+    font-size: 60px;
+    color: #fe5e17;
+    color: #ffffff;
+    line-height: 73px;
+    letter-spacing: 0;
+    font-weight: 800;//400
+}
+
+.slider-content p {
+    font-size: 18px;
+    font-weight: 600;//400
+    color: #fe5e17;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin: 28px 0px 39px;
+}
+
+.btn-area a {
+    height: 50px;
+    width: 195px;
+    border: 2px solid #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.btn-area a:hover {
+    background-color: #fff;
+    color: $naranja;
+    border: 2px solid $naranja;
+}
+
+.slider-m-img {}
+
+.slider-m-img img {
+    max-width: 268px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+/*===========================
+  END Slider Area
+===========================*/

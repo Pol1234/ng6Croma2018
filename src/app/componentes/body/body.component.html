@@ -1,0 +1,24 @@
+<!-- about area start -->
+<section class="container" id="queHacemos">
+    <div class="row ">
+        
+        <!-- #1 -->
+      
+        <div class="col-12 col-md-4" *ngFor="let datas of data">
+            <div class="card d-flex align-items-stretch">
+                <div class="iconos text-center">
+                       <!-- <i class="far fa-address-card fa-4x"></i> -->
+                         <i class="material-icons">{{ datas.icono }}</i>
+                </div>
+                <div class="card-body text-center my-2">
+                    <h5 class="card-title">{{ datas.titulo }}</h5>
+                    <p class="card-text">{{ datas.descripcion }}</p>
+                    <a href="#" class="btn btn-primary mt-3">Consultar</a>
+                </div>
+            </div>
+        </div>
+   
+    </div>
+
+</section>
+<!-- about area end -->

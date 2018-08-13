@@ -1,0 +1,31 @@
+@import '../../../variables';
+
+
+#queHacemos{
+    padding: 120px 0;
+
+    
+
+    .card{
+        border: none;
+        .iconos{
+           .material-icons{ 
+               font-size: 60px;
+               @include transition(all 0.3s ease-out);
+               //@include transform( rotate (0deg) );
+               
+               &:hover{
+                   
+                   color: $naranja;
+                   //transform: scale(1.1);
+                  // @include transform( scale (1.1) );
+                  @include scale(1.1);
+               }
+            }
+        }
+    }
+
+    
+
+   
+}
